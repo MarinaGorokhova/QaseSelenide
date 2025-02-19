@@ -21,5 +21,6 @@ public class Main {
         System.out.println("Средняя цена товара во всех корзинах: " + Basket.getAveragePriceAllBaskets() + " руб.");
         System.out.println("Средняя стоимость корзины: " + Basket.getAverageCostBasket() + " руб.");
 
+
     }
 }
