@@ -57,6 +57,6 @@ public class Computer {
                 storage + "\n" +
                 display + "\n" +
                 keyboard + "\n" +
-                "Общий вес: " + getTotalWeight();
+                "Общий вес: " + getTotalWeight() + "\n";
     }
 }
