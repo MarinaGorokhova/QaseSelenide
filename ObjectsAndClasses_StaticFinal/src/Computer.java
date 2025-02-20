@@ -1,13 +1,13 @@
 public class Computer {
 
-    public Display display;
-    public Keyboard keyboard;
-    public Memory memory;
-    public Processor processor;
-    public Storage storage;
-    public final String vendor;
-    public final String name;
-    public double totalWeight;
+    private Display display;
+    private Keyboard keyboard;
+    private Memory memory;
+    private Processor processor;
+    private Storage storage;
+    private final String vendor;
+    private final String name;
+    private double totalWeight;
 
     public Computer(String vendor, String name,Processor processor,Memory memory, Storage storage, Display display, Keyboard keyboard) {
         this.display = display;
@@ -44,7 +44,7 @@ public class Computer {
     }
 
     public double getTotalWeight() {
-        return totalWeight = Processor.getWeight() + Display.getDisplayWeight() + Keyboard.getKeyboardWeight() + Storage.getStorageWeight() + Memory.getMemoryWeight();
+        return totalWeight = processor.getWeight() + display.getDisplayWeight() + keyboard.getKeyboardWeight() + storage.getStorageWeight() + memory.getMemoryWeight();
     }
 
     public String toString() {

@@ -2,20 +2,20 @@ public class Processor {
     private final double mhz;
     private final int cores;
     private final String manufacturer;
-    private static int weight;
+    private final double weight;
 
-    public Processor(double mhz, int cores, String manufacturer, int weight) {
+    public Processor(double mhz, int cores, String manufacturer, double weight) {
         this.mhz = mhz;
         this.cores = cores;
         this.manufacturer = manufacturer;
         this.weight = weight;
     }
 
-    public double mhz() {
+    public double getMhz() {
         return mhz;
     }
 
-    public int cores() {
+    public int getCores() {
         return cores;
     }
 
@@ -23,7 +23,7 @@ public class Processor {
         return manufacturer;
     }
 
-    public static int getWeight() {
+    public double getWeight() {
         return weight;
     }
 

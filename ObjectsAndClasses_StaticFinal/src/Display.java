@@ -2,7 +2,7 @@ public class Display {
 
     private final double displayDiagonal;
     private final DisplayType displayType;
-    private static double displayWeight;
+    private final double displayWeight;
 
     public Display(double displayDiagonal, DisplayType displayType, double displayWeight) {
         this.displayDiagonal = displayDiagonal;
@@ -18,7 +18,7 @@ public class Display {
         return displayType;
     }
 
-    public static double getDisplayWeight() {
+    public double getDisplayWeight() {
         return displayWeight;
     }
 

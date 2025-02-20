@@ -1,7 +1,7 @@
 public class Keyboard {
     public final String keyboardType;
     public final boolean keyboardBacklight;
-    public static double keyboardWeight;
+    public final double keyboardWeight;
 
     public Keyboard(String keyboardType, boolean keyboardBacklight, double keyboardWeight) {
         this.keyboardType = keyboardType;
@@ -17,7 +17,7 @@ public class Keyboard {
         return keyboardBacklight;
     }
 
-    public static double getKeyboardWeight() {
+    public double getKeyboardWeight() {
         return keyboardWeight;
     }
 

@@ -1,7 +1,7 @@
 public class Storage {
     public final StorageType storageType;
     private final int storageVolume;
-    private static double storageWeight;
+    private final double storageWeight;
 
     public Storage(StorageType storageType, int storageVolume, double storageWeight) {
         this.storageType = storageType;
@@ -17,7 +17,7 @@ public class Storage {
         return storageVolume;
     }
 
-    public static double getStorageWeight() {
+    public double getStorageWeight() {
         return storageWeight;
     }
 

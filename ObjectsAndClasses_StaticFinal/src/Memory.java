@@ -1,7 +1,7 @@
 public class Memory {
     private final String type;
     private final int volume;
-    private static double memoryWeight;
+    private final double memoryWeight;
 
     public Memory(String type, int volume, double memoryWeight) {
         this.type = type;
@@ -17,7 +17,7 @@ public class Memory {
         return volume;
     }
 
-    public static double getMemoryWeight() {
+    public double getMemoryWeight() {
         return memoryWeight;
     }
 
