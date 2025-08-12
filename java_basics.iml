@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/AbstractClasses/practice_1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Generics/src/main/java/ru/skillbox/notification" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Generics/src/main/java/ru/skillbox/notification_sender" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StreamAPI/Airport/src/test" isTestSource="false" generated="true" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
