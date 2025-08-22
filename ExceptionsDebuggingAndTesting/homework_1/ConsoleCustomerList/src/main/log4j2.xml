@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <File name="QueriesFile" fileName="logs/queries.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </File>
+        <File name="ErrorsFile" fileName="logs/errors.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="QueriesLogger" level="info" additivity="false">
+            <AppenderRef ref="QueriesFile" />
+        </Logger>
+        <Logger name="ErrorsLogger" level="error" additivity="false">
+            <AppenderRef ref="ErrorsFile" />
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="QueriesFile" />
+            <AppenderRef ref="ErrorsFile" />
+        </Root>
+    </Loggers>
+</Configuration>
