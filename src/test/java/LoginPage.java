@@ -13,8 +13,8 @@ public class LoginPage {
 
     public void login() {
         open("login");
-        emailInput.setValue("tashapas3579@gmail.com").pressEnter();
-        passwordInput.sendKeys("OCmaryland");
+        emailInput.setValue("t123@yandex.ru").pressEnter();
+        passwordInput.sendKeys("****");
         submit.submit();
     }
 }
