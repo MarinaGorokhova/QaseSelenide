@@ -23,7 +23,6 @@ public class LoginPage {
     }
 
     public LoginPage login() {
-        open("/login");
         emailInput.setValue(user).pressEnter();
         passwordInput.sendKeys(password);
         submit.submit();
